@@ -1,0 +1,360 @@
+<svg id="mermaid-1554430205547" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 0 1022 364"><style>
+
+
+#mermaid-1554430205547 .label {
+  font-family: 'trebuchet ms', verdana, arial;
+  color: #333; }
+
+#mermaid-1554430205547 .node rect,
+#mermaid-1554430205547 .node circle,
+#mermaid-1554430205547 .node ellipse,
+#mermaid-1554430205547 .node polygon {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+#mermaid-1554430205547 .node.clickable {
+  cursor: pointer; }
+
+#mermaid-1554430205547 .arrowheadPath {
+  fill: #333333; }
+
+#mermaid-1554430205547 .edgePath .path {
+  stroke: #333333;
+  stroke-width: 1.5px; }
+
+#mermaid-1554430205547 .edgeLabel {
+  background-color: #e8e8e8; }
+
+#mermaid-1554430205547 .cluster rect {
+  fill: #ffffde !important;
+  stroke: #aaaa33 !important;
+  stroke-width: 1px !important; }
+
+#mermaid-1554430205547 .cluster text {
+  fill: #333; }
+
+#mermaid-1554430205547 div.mermaidTooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 2px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 12px;
+  background: #ffffde;
+  border: 1px solid #aaaa33;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100; }
+
+#mermaid-1554430205547 .actor {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1554430205547 text.actor {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1554430205547 .actor-line {
+  stroke: grey; }
+
+#mermaid-1554430205547 .messageLine0 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1554430205547 .messageLine1 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1554430205547 #arrowhead {
+  fill: #333; }
+
+#mermaid-1554430205547 #crosshead path {
+  fill: #333 !important;
+  stroke: #333 !important; }
+
+#mermaid-1554430205547 .messageText {
+  fill: #333;
+  stroke: none; }
+
+#mermaid-1554430205547 .labelBox {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1554430205547 .labelText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1554430205547 .loopText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1554430205547 .loopLine {
+  stroke-width: 2;
+  stroke-dasharray: '2 2';
+  stroke: #CCCCFF; }
+
+#mermaid-1554430205547 .note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+
+#mermaid-1554430205547 .noteText {
+  fill: black;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 14px; }
+
+#mermaid-1554430205547 .activation0 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1554430205547 .activation1 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1554430205547 .activation2 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+
+#mermaid-1554430205547 .section {
+  stroke: none;
+  opacity: 0.2; }
+
+#mermaid-1554430205547 .section0 {
+  fill: rgba(102, 102, 255, 0.49); }
+
+#mermaid-1554430205547 .section2 {
+  fill: #fff400; }
+
+#mermaid-1554430205547 .section1,
+#mermaid-1554430205547 .section3 {
+  fill: white;
+  opacity: 0.2; }
+
+#mermaid-1554430205547 .sectionTitle0 {
+  fill: #333; }
+
+#mermaid-1554430205547 .sectionTitle1 {
+  fill: #333; }
+
+#mermaid-1554430205547 .sectionTitle2 {
+  fill: #333; }
+
+#mermaid-1554430205547 .sectionTitle3 {
+  fill: #333; }
+
+#mermaid-1554430205547 .sectionTitle {
+  text-anchor: start;
+  font-size: 11px;
+  text-height: 14px; }
+
+
+#mermaid-1554430205547 .grid .tick {
+  stroke: lightgrey;
+  opacity: 0.3;
+  shape-rendering: crispEdges; }
+
+#mermaid-1554430205547 .grid path {
+  stroke-width: 0; }
+
+
+#mermaid-1554430205547 .today {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px; }
+
+
+
+#mermaid-1554430205547 .task {
+  stroke-width: 2; }
+
+#mermaid-1554430205547 .taskText {
+  text-anchor: middle;
+  font-size: 11px; }
+
+#mermaid-1554430205547 .taskTextOutsideRight {
+  fill: black;
+  text-anchor: start;
+  font-size: 11px; }
+
+#mermaid-1554430205547 .taskTextOutsideLeft {
+  fill: black;
+  text-anchor: end;
+  font-size: 11px; }
+
+
+#mermaid-1554430205547 .taskText0,
+#mermaid-1554430205547 .taskText1,
+#mermaid-1554430205547 .taskText2,
+#mermaid-1554430205547 .taskText3 {
+  fill: white; }
+
+#mermaid-1554430205547 .task0,
+#mermaid-1554430205547 .task1,
+#mermaid-1554430205547 .task2,
+#mermaid-1554430205547 .task3 {
+  fill: #8a90dd;
+  stroke: #534fbc; }
+
+#mermaid-1554430205547 .taskTextOutside0,
+#mermaid-1554430205547 .taskTextOutside2 {
+  fill: black; }
+
+#mermaid-1554430205547 .taskTextOutside1,
+#mermaid-1554430205547 .taskTextOutside3 {
+  fill: black; }
+
+
+#mermaid-1554430205547 .active0,
+#mermaid-1554430205547 .active1,
+#mermaid-1554430205547 .active2,
+#mermaid-1554430205547 .active3 {
+  fill: #bfc7ff;
+  stroke: #534fbc; }
+
+#mermaid-1554430205547 .activeText0,
+#mermaid-1554430205547 .activeText1,
+#mermaid-1554430205547 .activeText2,
+#mermaid-1554430205547 .activeText3 {
+  fill: black !important; }
+
+
+#mermaid-1554430205547 .done0,
+#mermaid-1554430205547 .done1,
+#mermaid-1554430205547 .done2,
+#mermaid-1554430205547 .done3 {
+  stroke: grey;
+  fill: lightgrey;
+  stroke-width: 2; }
+
+#mermaid-1554430205547 .doneText0,
+#mermaid-1554430205547 .doneText1,
+#mermaid-1554430205547 .doneText2,
+#mermaid-1554430205547 .doneText3 {
+  fill: black !important; }
+
+
+#mermaid-1554430205547 .crit0,
+#mermaid-1554430205547 .crit1,
+#mermaid-1554430205547 .crit2,
+#mermaid-1554430205547 .crit3 {
+  stroke: #ff8888;
+  fill: red;
+  stroke-width: 2; }
+
+#mermaid-1554430205547 .activeCrit0,
+#mermaid-1554430205547 .activeCrit1,
+#mermaid-1554430205547 .activeCrit2,
+#mermaid-1554430205547 .activeCrit3 {
+  stroke: #ff8888;
+  fill: #bfc7ff;
+  stroke-width: 2; }
+
+#mermaid-1554430205547 .doneCrit0,
+#mermaid-1554430205547 .doneCrit1,
+#mermaid-1554430205547 .doneCrit2,
+#mermaid-1554430205547 .doneCrit3 {
+  stroke: #ff8888;
+  fill: lightgrey;
+  stroke-width: 2;
+  cursor: pointer;
+  shape-rendering: crispEdges; }
+
+#mermaid-1554430205547 .doneCritText0,
+#mermaid-1554430205547 .doneCritText1,
+#mermaid-1554430205547 .doneCritText2,
+#mermaid-1554430205547 .doneCritText3 {
+  fill: black !important; }
+
+#mermaid-1554430205547 .activeCritText0,
+#mermaid-1554430205547 .activeCritText1,
+#mermaid-1554430205547 .activeCritText2,
+#mermaid-1554430205547 .activeCritText3 {
+  fill: black !important; }
+
+#mermaid-1554430205547 .titleText {
+  text-anchor: middle;
+  font-size: 18px;
+  fill: black; }
+
+#mermaid-1554430205547 g.classGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 10px; }
+
+#mermaid-1554430205547 g.classGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1554430205547 g.classGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1554430205547 .classLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1554430205547 .classLabel .label {
+  fill: #9370DB;
+  font-size: 10px; }
+
+#mermaid-1554430205547 .relation {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1554430205547 #compositionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1554430205547 #compositionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1554430205547 #aggregationStart {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1554430205547 #aggregationEnd {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1554430205547 #dependencyStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1554430205547 #dependencyEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1554430205547 #extensionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1554430205547 #extensionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1554430205547 .commit-id,
+#mermaid-1554430205547 .commit-msg,
+#mermaid-1554430205547 .branch-label {
+  fill: lightgrey;
+  color: lightgrey; }
+</style><style>#mermaid-1554430205547 {
+    color: rgba(0, 0, 0, 0.65098);
+    font: normal normal normal normal 14px/21px "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }</style><g></g><g class="grid" transform="translate(75, 314)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle"><path class="domain" stroke="currentColor" d="M0.5,-279V0.5H872.5V-279"></path><g class="tick" opacity="1" transform="translate(29.5,0)"><line stroke="currentColor" y2="-279"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2019-03-03</text></g><g class="tick" opacity="1" transform="translate(131.5,0)"><line stroke="currentColor" y2="-279"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2019-03-10</text></g><g class="tick" opacity="1" transform="translate(232.5,0)"><line stroke="currentColor" y2="-279"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2019-03-17</text></g><g class="tick" opacity="1" transform="translate(334.5,0)"><line stroke="currentColor" y2="-279"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2019-03-24</text></g><g class="tick" opacity="1" transform="translate(436.5,0)"><line stroke="currentColor" y2="-279"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2019-03-31</text></g><g class="tick" opacity="1" transform="translate(538.5,0)"><line stroke="currentColor" y2="-279"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2019-04-07</text></g><g class="tick" opacity="1" transform="translate(639.5,0)"><line stroke="currentColor" y2="-279"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2019-04-14</text></g><g class="tick" opacity="1" transform="translate(741.5,0)"><line stroke="currentColor" y2="-279"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2019-04-21</text></g><g class="tick" opacity="1" transform="translate(843.5,0)"><line stroke="currentColor" y2="-279"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2019-04-28</text></g></g><g><rect x="0" y="48" width="984.5" height="24" class="section section0"></rect><rect x="0" y="72" width="984.5" height="24" class="section section0"></rect><rect x="0" y="96" width="984.5" height="24" class="section section1"></rect><rect x="0" y="120" width="984.5" height="24" class="section section2"></rect><rect x="0" y="144" width="984.5" height="24" class="section section2"></rect><rect x="0" y="168" width="984.5" height="24" class="section section2"></rect><rect x="0" y="192" width="984.5" height="24" class="section section2"></rect><rect x="0" y="216" width="984.5" height="24" class="section section3"></rect><rect x="0" y="240" width="984.5" height="24" class="section section3"></rect><rect x="0" y="264" width="984.5" height="24" class="section section3"></rect><rect x="0" y="288" width="984.5" height="24" class="section section3"></rect></g><g><rect rx="3" ry="3" x="75" y="50" width="203" height="20" class="task  task0"></rect><rect rx="3" ry="3" x="249" y="74" width="189" height="20" class="task  task0"></rect><rect rx="3" ry="3" x="307" y="98" width="175" height="20" class="task  task1"></rect><rect rx="3" ry="3" x="453" y="122" width="349" height="20" class="task  task2"></rect><rect rx="3" ry="3" x="482" y="146" width="349" height="20" class="task  task2"></rect><rect rx="3" ry="3" x="482" y="170" width="349" height="20" class="task  task2"></rect><rect rx="3" ry="3" x="482" y="194" width="349" height="20" class="task  task2"></rect><rect rx="3" ry="3" x="482" y="218" width="101" height="20" class="task  task3"></rect><rect rx="3" ry="3" x="729" y="242" width="218" height="20" class="task  task3"></rect><rect rx="3" ry="3" x="729" y="266" width="145" height="20" class="task  task3"></rect><rect rx="3" ry="3" x="874" y="290" width="73" height="20" class="task  task3"></rect><text font-size="11" x="176.5" y="63.5" text-height="20" class="taskText taskText0 ">NLP, Language Models           </text><text font-size="11" x="343.5" y="87.5" text-height="20" class="taskText taskText0 ">Neural Networks, Best Practices     </text><text font-size="11" x="394.5" y="111.5" text-height="20" class="taskText taskText1 ">Preparing data for training      </text><text font-size="11" x="627.5" y="135.5" text-height="20" class="taskText taskText2 ">For intents AddToPlaylist and BookRestaurant      </text><text font-size="11" x="656.5" y="159.5" text-height="20" class="taskText taskText2 ">For intents GetWeather and PlayMusic </text><text font-size="11" x="656.5" y="183.5" text-height="20" class="taskText taskText2 ">For intent RateBook      </text><text font-size="11" x="656.5" y="207.5" text-height="20" class="taskText taskText2 ">For intents SearchCreativeWork, SearchScreeningEvent      </text><text font-size="11" x="532.5" y="231.5" text-height="20" class="taskText taskText3 ">Progress Report              </text><text font-size="11" x="838" y="255.5" text-height="20" class="taskText taskText3 ">Final written Report                </text><text font-size="11" x="801.5" y="279.5" text-height="20" class="taskText taskText3 ">Analysing Results  </text><text font-size="11" x="910.5" y="303.5" text-height="20" class="taskText taskText3 ">Poster </text></g><g><text x="10" y="74" class="sectionTitle sectionTitle0">Learning</text><text x="10" y="110" class="sectionTitle sectionTitle1">Data Prep</text><text x="10" y="170" class="sectionTitle sectionTitle2">Fine Tuning and Experimentation</text><text x="10" y="266" class="sectionTitle sectionTitle3">Analysis and Report</text></g><g class="today"><line x1="582" x2="582" y1="25" y2="339" class="today"></line></g><text x="511" y="25" class="titleText">Timeline</text></svg>
